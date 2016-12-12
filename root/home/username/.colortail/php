@@ -1,0 +1,86 @@
+######################################
+## match FUNCTIONS   
+######################################
+COLOR magenta
+{
+([-_a-zA-Z0-9]+\(\) )
+}
+
+######################################
+# match DATE
+######################################
+COLOR cyan
+{
+# matches the time in php log
+^.*([0-9]{4}-[0-9]{2}-[0-9]{2}).*$
+}
+COLOR cyan
+{
+^.*([0-9]{2}-[A-Za-z]{3}-[0-9]{4}).*$
+}
+######################################
+# find error section
+######################################
+COLOR brightred
+{
+^(ErrorNumber:|Line:|File:|Request-URI).*$
+}
+COLOR yellow
+{
+^(Trace:|\sFile:\s.*)$
+}
+######################################
+# url
+COLOR blue
+{
+^.*(https?\://[^ ]*).*$
+}
+######################################
+# match WARNING text
+######################################
+COLOR yellow
+{
+# highlight warning text
+^.*(PHP Warning:).*$
+}
+
+######################################
+# match FATAL ERROR text
+######################################
+COLOR brightred
+{
+^.*(PHP Fatal error).*$
+}
+COLOR brightred
+{
+^.*(PHP Parse error).*$
+}
+COLOR brightred
+{
+^.*(PHP Catchable fatal error).*$
+}
+
+
+######################################
+# match LINE NUMBER
+######################################
+COLOR green
+{
+# highlight warning text
+^.*(line [0-9]+).*$
+}
+
+######################################
+# match QUOTED TEXT
+#####################################
+COLOR brightgreen
+{
+# highlight warning text
+^.*('.*').*$
+}
+
+COLOR brightblue
+{
+# matches the time
+^.*([0-9]{2}:[0-9]{2}:[0-9]{2}).*$
+}
