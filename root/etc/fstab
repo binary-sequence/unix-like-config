@@ -1,0 +1,4 @@
+# [...] hier comes existing content from OS distro [...]
+
+# _shared_content_
+//192.168.0.2/_shared_content_ /home/username/mount/smb/_shared_content_ cifs auto,rw,noperm,user=<domain_username>,password=<domain_password>,domain=<domainname>,uid=<local_username>,gid=<local_group_name> 0 0
