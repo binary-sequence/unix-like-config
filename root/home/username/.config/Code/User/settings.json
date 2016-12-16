@@ -1,8 +1,13 @@
 // Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
 {
     "editor.insertSpaces": true,
+    "editor.renderLineHighlight": "all",
     "editor.tabSize": 2,
     "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "html.format.endWithNewline": true
-}
+    "html.format.endWithNewline": true,
+    "window.showFullPath": true,
+    "workbench.activityBar.visible": true,
+    "workbench.editor.showTabCloseButton": false
+  }
