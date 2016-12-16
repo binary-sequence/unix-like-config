@@ -1,0 +1,24 @@
+[global_config]
+  title_inactive_bg_color = "#9e9e9e"
+  title_inactive_fg_color = "#383838"
+  title_transmit_bg_color = "#383838"
+  title_transmit_fg_color = "#9e9e9e"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#401f30"
+    background_darkness = 0.88
+    background_image = None
+    background_type = transparent
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    scrollback_lines = 5000
