@@ -1,8 +1,8 @@
 [alias]
   st = status
   ci = commit
-  br = branch -v
-  bra = branch -va
+  br = branch -vv
+  bra = branch -vva
   co = checkout
   df = diff
   dc = diff --cached
