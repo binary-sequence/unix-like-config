@@ -1,4 +1,4 @@
-alias df='df -h'
+alias df='grc df -h'
 alias du='du -h'
 alias git-vamos='git stash save "git-vamos backup" && git rup && git co master && git pull && git co develop && git pull ; git bra'
 alias l='ls -CF --color=always'
