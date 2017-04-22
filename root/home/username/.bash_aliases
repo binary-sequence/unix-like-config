@@ -1,8 +1,11 @@
-alias li='ls -1'
-alias lola='ls -lhA'
+alias df='grc df -h'
+alias du='du -h'
 alias git-vamos='git stash save "git-vamos backup" && git rup && git co master && git pull && git co develop && git pull ; git bra'
+alias l='ls -CF --color=always'
+alias li='l -1'
+alias lol='l -lh'
+alias lola='lol -A'
 alias mount='grc mount'
-alias tail='grc tail'
 alias showColortailLogs='colortail -f -k ~/.colortail/php /path/to/logs/*.log'
 alias showLogs='tail -f /path/to/logs/*.log'
 alias docker='sudo docker'
@@ -52,7 +55,4 @@ alias docker-update='docker update'
 alias docker-version='docker version'
 alias docker-volume='docker volume'
 alias docker-wait='docker wait'
-function showGrcLogs {
-  grc tail -f /path/to/logs/*access.log &
-  grc tail -f /path/to/logs/*error.log ; fg
-}
+alias tail='grc tail'
