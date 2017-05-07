@@ -1,0 +1,3 @@
+#!/bin/bash
+
+PROMPT_COMMAND="echo '' ; /usr/local/bin/showBatteryStatus.sh"
