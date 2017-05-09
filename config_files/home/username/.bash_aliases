@@ -55,3 +55,4 @@ alias lola='lol -A'
 alias mount='grc mount'
 alias systemctl='sudo systemctl'
 alias tail='grc tail'
+
