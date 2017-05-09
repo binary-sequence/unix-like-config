@@ -1,0 +1,11 @@
+! FORMAT
+! keycode [KeyCode] = [Key] [Shift+Key] [mode_switch+Key] [mode_switch+Shift+Key] [AltGr+Key] [AltGr+Shift+Key]
+
+! Add the spanish letter ntilde with AltGr+n
+keycode  57 = n N n N ntilde Ntilde n N
+
+! Activate Shift_R as 'compose key' when Shift_L+Shift_R
+keycode  62 = Shift_R Shift_R Shift_R Multi_key Shift_R Shift_R
+
+! Deactivate Control_R as 'compose key' when Shift+Control_R
+keycode 105 = Control_R Control_R Control_R Control_R Control_R Control_R
