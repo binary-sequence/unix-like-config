@@ -56,3 +56,11 @@ alias mount='grc mount'
 alias systemctl='sudo systemctl'
 alias tail='grc tail'
 
+function uptime {
+  if [ "$1" == '-h' ]; then
+    echo -e "current time  time length  system up  number of users  avg 1, 5, 15 \n`/usr/bin/uptime`" | sed -e 's/  /\t /g' -e 's/,/\t/g' -e 's/ load average://'
+  else
+    /usr/bin/uptime $1
+  fi
+}
+
