@@ -1,5 +1,0 @@
-[
-	{ "keys": ["ctrl+#"], "command": "toggle_comment", "args": { "block": false } },
-  { "keys": ["ctrl+down"], "args": { "action": "next_edit_point" }, "command": "run_emmet_action", "context": [{ "key": "emmet_action_enabled.next_edit_point" } ] },
-  { "keys": ["ctrl+up"], "args": { "action": "prev_edit_point" }, "command": "run_emmet_action", "context": [{ "key": "emmet_action_enabled.prev_edit_point" } ] }
-]
